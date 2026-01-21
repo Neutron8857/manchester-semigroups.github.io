@@ -177,3 +177,19 @@ a:focus {
 p.lead {
     font-weight: 400;
 }
+
+
+/* =========================
+   Footer
+   ========================= */
+.site-footer {
+    margin-top: 4rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid rgba(90, 81, 104, 0.3);
+    font-size: 0.85rem;
+    color: rgba(90, 81, 104, 0.8);
+}
+
+.site-footer p {
+    margin: 0;
+}
