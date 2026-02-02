@@ -29,17 +29,6 @@ body {
     padding: 1.2rem 0 0.8rem;       /* keeps header height as-is */
 }
 
-/* Tiled, 50% opacity background image */
-.site-header::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: url("headerbackground.png");
-    background-repeat: repeat;      /* seamless tiling */
-    background-size: auto;          /* keep original tile size */
-    opacity: 0.10;                   /* 15% opacity */
-    z-index: 0;
-}
 
 /* Ensure header content sits above the background */
 .site-header .container {dark
